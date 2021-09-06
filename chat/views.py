@@ -4,9 +4,6 @@ from django.shortcuts import render
 def homepage(request):
     return render(request, 'index.html')
 
-
-
-
 def roomview(request):
     room_no = request.POST['room_no']
     room_name = request.POST['room_name']
